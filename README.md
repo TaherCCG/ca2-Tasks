@@ -55,3 +55,42 @@ A simple rule to determine if a year is a leap year is to test if it is a multip
 -  Next, create a loop (any) that will display all the even numbers between 1 and 20.
 -  Now, create a loop that will produce the following output: * ** *** **** *****
 -  Finally, write the code to compute the greatest common divisor (GCD, or highest common factor) of two positive integers.
+
+## Task 7
+ *Follow these steps:* 
+-  Create a program called alternative.py that reads in a string and makes each alternate character an uppercase character and each other alternate character a lowercase character (e.g, the string “Hello World” would become “HeLlO WoRlD”)
+-  Now, try starting with the same string but making each alternative word lower and upper case (e.g. the string “I am learning to code” would become “i AM learning TO code”). Using the split and join functions will help you here.  
+ 
+## Task 8 
+ *Follow these steps:* 
+-  Write a program called separation.py that inputs a sentence and then displays each word of the sentence on a separate lines.
+ 
+## Task 9
+ *Follow these steps:* 
+-  Write a Python program called disappear.py that strips a set of characters from a string. 
+-  Ask the user to input a string and then ask the user which characters they would like to make disappear. 
+-  For example: 
+-  The quick brown fox jumps over the lazy dog. 
+-  After stripping a,e,i,o,u: 
+-  Th qck brwn fx jmps vr th lzy dg.
+ 
+## Task 10
+ *Follow these steps:* 
+-  Create a new Python file in this folder called list_types.py. 
+-  Imagine you want to store the names of three of your friends in a list of strings. Create a list variable called friends_names, and write the syntax to store the full names of three of your friends. 
+-  Now, write statements to print out the name of the first friend, then the name of the last friend, and finally the length of the list. 
+-  Now, define a list called friends_ages that stores the age of each of your friends in a corresponding manner, i.e., the first entry of this list is the age of the friend named first in the other list.  
+ 
+## Task 11
+ *Follow these steps:* 
+-  Create a new Python file in this folder called loop1000.py. 
+-  You are asked to print out all the numbers from 1 to 1000. Write 2 lines of code in your file to print out all numbers from 1 to 1000. 
+-  Once you've got this to work, add logic inside your loop to only print out the numbers from 1 to 1000 that are even (i.e. divisible by 2). Remember the modulo command — i.e., %. 10%5 will give you the remainder of 10 divided by 5. 10 divided by 5 equals 2 with a remainder of 0. Hence, this statement returns 0. Any even number is a number that can be divided by 2 with no remainder.  
+ 
+## Task 12 
+ *Follow these steps:* 
+-  Write a Python program called John.py that takes in a user’s input as a string. 
+-  While the string is not “John”, add every string entered to a list until “John” is entered. This program basically stores all incorrectly entered strings in a list where “John” is the only correct string. 
+-  Print out the list of incorrect names. 
+-  Example program run (what should show up in the Python Console when you run it): Enter your name : <user enters="" tim=""> Enter your name : <user enters="" mark=""> Enter your name: <user enters="" john=""> Incorrect names: [‘Tim’, ‘Mark’] 
+-  HINT: When testing your While loop, you can make use of .upper() or .lower() to eliminate case sensitivity.</user></user></user>
