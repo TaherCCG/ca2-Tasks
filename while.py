@@ -9,7 +9,7 @@ while True:                              # loop until true
 print ("Numbers:",nums)                  # Print list
 
 sums=sum(nums)                           # sums the numbers in list to get total
-avg=sums/len(nums)                       # devides the total by the number of list (nums)   
+avg=sums/len(nums)                       # divides the total by the number of list (nums) length 
 
 print ("total number: ",sums)            # Print Total
 print("Average is :",avg)                # Print Average
