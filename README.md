@@ -44,7 +44,16 @@ given by the user.
 [back to Top](#table-of-contents)
 
 </div>
+Here is a simple flow chart of this program:
 
+```mermaid
+graph TD;
+    InputNumber-->CheckInputNumber;
+    CheckInputNumber-->lessThanInputNumber-->printIfEven;
+    printIfEven-->+2;
+    +2-->CheckInputNumber;
+    CheckInputNumber-->End_If=InputNumber;
+```
 ---
 ### Task 2
 *Steps:*
